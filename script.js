@@ -1,6 +1,7 @@
 function stringChop(str, size) {
   //SGN your code here
 	let arr = [];
+	if (!str) return arr;
 	if(str.length >=1){
 		if(size>str.length){
 			arr.push(str);
